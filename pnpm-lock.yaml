@@ -163,7 +163,7 @@ importers:
         version: 19.2.3(@types/react@19.2.14)
       postcss:
         specifier: ^8.5
-        version: 8.5.23
+        version: 8.5.30
       tailwindcss:
         specifier: ^4.3.3
         version: 4.3.3
@@ -714,8 +714,8 @@ packages:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
 
-  electron-to-chromium@1.5.456:
-    resolution: {integrity: sha512-8hboqI6xesozteFb8aa7OGknvxUtTeRJLz0FoePysUEh/oWbddykIGdgpEJRbPRg/nIMfBf2DFos+H2MtvJl2A==}
+  electron-to-chromium@1.5.453:
+    resolution: {integrity: sha512-9r/nz9akllr3SZsHUhfK10ktUH6j0Dbo3cKdh91khw0FvR6HhXGnATmOq5X8ena2aq4GXLQ1koh3nvKaQJaNmQ==}
 
   enhanced-resolve@5.24.2:
     resolution: {integrity: sha512-rpsZEGT1jFuve6QlpyRp9ckQ+kN61hvF9BzCPyMdaKTm8UJce96KBn3sorXOFXlzjPrs3Vc4T1NsSroZ3PxlFw==}
@@ -863,8 +863,8 @@ packages:
       sass:
         optional: true
 
-  node-releases@2.0.59:
-    resolution: {integrity: sha512-5qr2okC4ItAI0hG5SaV0HoYMpnM/Y6+Oqr7AmPYy/2uEoGvS+GbSKLeRxSS1uAdu59yz0ouzcuXievSgg///WA==}
+  node-releases@2.0.58:
+    resolution: {integrity: sha512-BdiKAgbfRlvfMq/XzO/AF9NPmaA8a+YpLAyAFTVFBj3gARrAIfWvNq7Q7NE4se3KgFu0KkrvQMxTS0XVnsGzHg==}
     engines: {node: '>=18'}
 
   picocolors@1.1.1:
@@ -882,6 +882,10 @@ packages:
 
   postcss@8.5.23:
     resolution: {integrity: sha512-g50586zr4bZmwFiTlflMu8E0bDTb5I5gertgwAKmsdUlTQIhZtunzUlD1WSzwcVWPoAVpsrA6vlfCD7oXvRwgg==}
+    engines: {node: ^10 || ^12 || >=14}
+
+  postcss@8.5.30:
+    resolution: {integrity: sha512-zkd+e9S1AQHhmaBKye9zlFHWjOwVgqXl1q3ECYy8561K7qxR2cREf/STLskulBFd78k6AOFeA+ff1TtEzk9bAA==}
     engines: {node: ^10 || ^12 || >=14}
 
   react-dom@19.2.4:
@@ -1370,7 +1374,7 @@ snapshots:
       '@alloc/quick-lru': 5.2.0
       '@tailwindcss/node': 4.3.3
       '@tailwindcss/oxide': 4.3.3
-      postcss: 8.5.23
+      postcss: 8.5.30
       tailwindcss: 4.3.3
 
   '@types/node@24.10.4':
@@ -1396,8 +1400,8 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.11.0
       caniuse-lite: 1.0.30001816
-      electron-to-chromium: 1.5.456
-      node-releases: 2.0.59
+      electron-to-chromium: 1.5.453
+      node-releases: 2.0.58
       update-browserslist-db: 1.2.3(browserslist@4.28.7)
     optional: true
 
@@ -1429,7 +1433,7 @@ snapshots:
 
   detect-libc@2.1.2: {}
 
-  electron-to-chromium@1.5.456:
+  electron-to-chromium@1.5.453:
     optional: true
 
   enhanced-resolve@5.24.2:
@@ -1549,7 +1553,7 @@ snapshots:
       - '@types/node'
       - babel-plugin-macros
 
-  node-releases@2.0.59:
+  node-releases@2.0.58:
     optional: true
 
   picocolors@1.1.1: {}
@@ -1561,6 +1565,12 @@ snapshots:
       playwright-core: 1.64.1
 
   postcss@8.5.23:
+    dependencies:
+      nanoid: 3.3.18
+      picocolors: 1.1.1
+      source-map-js: 1.2.2
+
+  postcss@8.5.30:
     dependencies:
       nanoid: 3.3.18
       picocolors: 1.1.1
