@@ -1,3 +1,6 @@
-minimumReleaseAgeExclude:
-  - '@next/*'
-  - next
+# Same-major patched transitives; review periodically with pnpm audit.
+overrides:
+  nanoid@3: 3.3.18
+  browserslist@4: 4.28.7
+  source-map-js@1: 1.2.2
+  baseline-browser-mapping@2: 2.11.0

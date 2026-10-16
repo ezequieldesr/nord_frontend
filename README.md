@@ -8,6 +8,8 @@
 ![React](https://img.shields.io/badge/React-19-149eca?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript)
 ![Playwright](https://img.shields.io/badge/Testes-Playwright-2ead33)
+[![CI](https://github.com/ezequieldesr/nord_frontend/actions/workflows/ci.yml/badge.svg)](https://github.com/ezequieldesr/nord_frontend/actions/workflows/ci.yml)
+[![E2E](https://github.com/ezequieldesr/nord_frontend/actions/workflows/e2e.yml/badge.svg)](https://github.com/ezequieldesr/nord_frontend/actions/workflows/e2e.yml)
 
 [Ver demonstração](#demonstração) · [Funcionalidades](#funcionalidades) · [Executar](#executar-localmente) · [Testes](#testes-e-gravação) · [API backend](https://github.com/ezequieldesr/nord_backend)
 
@@ -231,3 +233,12 @@ observabilidade e evolução das proteções contra abuso. Testes de fluxo não 
 [Ezequiel — GitHub](https://github.com/ezequieldesr)
 
 [Voltar ao início](#nórd--storefront)
+
+
+## Atualizações com GitHub Actions
+
+Os workflows verificam testes, compilação, dependências e código com CodeQL.
+O frontend também executa a integração Playwright com API e PostgreSQL descartáveis.
+As actions são fixadas por commit e o Dependabot propõe atualizações semanalmente.
+[Configuração dos checks e proteções de branch](docs/CI-SEGURANCA.md).
+Os workflows só passam a executar no GitHub após o envio dos arquivos; regras de merge exigem configuração no repositório.
