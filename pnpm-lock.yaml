@@ -117,10 +117,10 @@ importers:
     dependencies:
       '@base-ui/react':
         specifier: ^1.5.0
-        version: 1.5.0(@date-fns/tz@1.4.1)(@types/react@19.2.14)(date-fns@4.1.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 1.5.0(@date-fns/tz@1.4.1)(@types/react@19.3.0)(date-fns@4.1.0)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)
       '@vercel/analytics':
         specifier: 1.6.1
-        version: 1.6.1(next@16.3.8(@babel/core@7.29.7)(@playwright/test@1.64.1)(@types/node@24.10.4)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)
+        version: 1.6.1(next@16.3.8(@babel/core@7.29.7)(@playwright/test@1.64.1)(@types/node@24.10.4)(react-dom@19.2.4(react@19.3.1))(react@19.3.1))(react@19.3.1)
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
@@ -129,16 +129,16 @@ importers:
         version: 2.1.1
       lucide-react:
         specifier: ^1.16.0
-        version: 1.17.0(react@19.2.4)
+        version: 1.17.0(react@19.3.1)
       next:
         specifier: 16.3.8
-        version: 16.3.8(@babel/core@7.29.7)(@playwright/test@1.64.1)(@types/node@24.10.4)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 16.3.8(@babel/core@7.29.7)(@playwright/test@1.64.1)(@types/node@24.10.4)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)
       react:
         specifier: ^19
-        version: 19.2.4
+        version: 19.3.1
       react-dom:
         specifier: ^19
-        version: 19.2.4(react@19.2.4)
+        version: 19.2.4(react@19.3.1)
       tailwind-merge:
         specifier: ^3.3.1
         version: 3.4.0
@@ -157,10 +157,10 @@ importers:
         version: 24.10.4
       '@types/react':
         specifier: ^19
-        version: 19.2.14
+        version: 19.3.0
       '@types/react-dom':
         specifier: ^19
-        version: 19.2.3(@types/react@19.2.14)
+        version: 19.2.3(@types/react@19.3.0)
       postcss:
         specifier: ^8.5
         version: 8.5.23
@@ -637,8 +637,8 @@ packages:
     peerDependencies:
       '@types/react': ^19.2.0
 
-  '@types/react@19.2.14':
-    resolution: {integrity: sha512-ilcTH/UniCkMdtexkoCN0bI7pMcJDvmQFPvuPvmEaYA/NSfFTAgdUSLAoVjaRJm7+6PvcM+q1zYOwS4wTYMF9w==}
+  '@types/react@19.3.0':
+    resolution: {integrity: sha512-N0rFCuH9YoxG9/m61l9MfpJKfmLOVU0em7ipIz6TRgSSkvReLB9vL85GB+yr8Bs5leqpvg96JSwF4ZS1s4viQg==}
 
   '@vercel/analytics@1.6.1':
     resolution: {integrity: sha512-oH9He/bEM+6oKlv3chWuOOcp8Y6fo6/PSro8hEkgCW3pu9/OiCXiUpRUogDh3Fs3LH2sosDrx8CxeOLBEE+afg==}
@@ -889,8 +889,8 @@ packages:
     peerDependencies:
       react: ^19.2.4
 
-  react@19.2.4:
-    resolution: {integrity: sha512-9nfp2hYpCwOjAN+8TZFGhtWEwgvWHXqESH8qT89AT/lWklpLON22Lc8pEtnpsZz7VmawabSU0gCjnj8aC0euHQ==}
+  react@19.3.1:
+    resolution: {integrity: sha512-QNhWdt7nrgVWWQG58QuGsAR3jv3Hbe4mb4vz7w2csnHavciZJgda1CPNaldF6eVxv90ud3jUXpKlHL69gO38yw==}
     engines: {node: '>=0.10.0'}
 
   reselect@5.2.0:
@@ -1094,30 +1094,30 @@ snapshots:
       '@babel/helper-validator-identifier': 7.29.7
     optional: true
 
-  '@base-ui/react@1.5.0(@date-fns/tz@1.4.1)(@types/react@19.2.14)(date-fns@4.1.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
+  '@base-ui/react@1.5.0(@date-fns/tz@1.4.1)(@types/react@19.3.0)(date-fns@4.1.0)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@base-ui/utils': 0.2.9(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
-      '@floating-ui/react-dom': 2.1.8(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+      '@base-ui/utils': 0.2.9(@types/react@19.3.0)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)
+      '@floating-ui/react-dom': 2.1.8(react-dom@19.2.4(react@19.3.1))(react@19.3.1)
       '@floating-ui/utils': 0.2.11
-      react: 19.2.4
-      react-dom: 19.2.4(react@19.2.4)
-      use-sync-external-store: 1.6.0(react@19.2.4)
+      react: 19.3.1
+      react-dom: 19.2.4(react@19.3.1)
+      use-sync-external-store: 1.6.0(react@19.3.1)
     optionalDependencies:
       '@date-fns/tz': 1.4.1
-      '@types/react': 19.2.14
+      '@types/react': 19.3.0
       date-fns: 4.1.0
 
-  '@base-ui/utils@0.2.9(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
+  '@base-ui/utils@0.2.9(@types/react@19.3.0)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)':
     dependencies:
       '@babel/runtime': 7.29.7
       '@floating-ui/utils': 0.2.11
-      react: 19.2.4
-      react-dom: 19.2.4(react@19.2.4)
+      react: 19.3.1
+      react-dom: 19.2.4(react@19.3.1)
       reselect: 5.2.0
-      use-sync-external-store: 1.6.0(react@19.2.4)
+      use-sync-external-store: 1.6.0(react@19.3.1)
     optionalDependencies:
-      '@types/react': 19.2.14
+      '@types/react': 19.3.0
 
   '@date-fns/tz@1.4.1':
     optional: true
@@ -1136,11 +1136,11 @@ snapshots:
       '@floating-ui/core': 1.7.5
       '@floating-ui/utils': 0.2.11
 
-  '@floating-ui/react-dom@2.1.8(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
+  '@floating-ui/react-dom@2.1.8(react-dom@19.2.4(react@19.3.1))(react@19.3.1)':
     dependencies:
       '@floating-ui/dom': 1.7.6
-      react: 19.2.4
-      react-dom: 19.2.4(react@19.2.4)
+      react: 19.3.1
+      react-dom: 19.2.4(react@19.3.1)
 
   '@floating-ui/utils@0.2.11': {}
 
@@ -1377,18 +1377,18 @@ snapshots:
     dependencies:
       undici-types: 7.16.0
 
-  '@types/react-dom@19.2.3(@types/react@19.2.14)':
+  '@types/react-dom@19.2.3(@types/react@19.3.0)':
     dependencies:
-      '@types/react': 19.2.14
+      '@types/react': 19.3.0
 
-  '@types/react@19.2.14':
+  '@types/react@19.3.0':
     dependencies:
       csstype: 3.2.3
 
-  '@vercel/analytics@1.6.1(next@16.3.8(@babel/core@7.29.7)(@playwright/test@1.64.1)(@types/node@24.10.4)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)':
+  '@vercel/analytics@1.6.1(next@16.3.8(@babel/core@7.29.7)(@playwright/test@1.64.1)(@types/node@24.10.4)(react-dom@19.2.4(react@19.3.1))(react@19.3.1))(react@19.3.1)':
     optionalDependencies:
-      next: 16.3.8(@babel/core@7.29.7)(@playwright/test@1.64.1)(@types/node@24.10.4)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
-      react: 19.2.4
+      next: 16.3.8(@babel/core@7.29.7)(@playwright/test@1.64.1)(@types/node@24.10.4)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)
+      react: 19.3.1
 
   baseline-browser-mapping@2.11.0: {}
 
@@ -1510,9 +1510,9 @@ snapshots:
       yallist: 3.1.1
     optional: true
 
-  lucide-react@1.17.0(react@19.2.4):
+  lucide-react@1.17.0(react@19.3.1):
     dependencies:
-      react: 19.2.4
+      react: 19.3.1
 
   magic-string@0.30.21:
     dependencies:
@@ -1523,16 +1523,16 @@ snapshots:
 
   nanoid@3.3.18: {}
 
-  next@16.3.8(@babel/core@7.29.7)(@playwright/test@1.64.1)(@types/node@24.10.4)(react-dom@19.2.4(react@19.2.4))(react@19.2.4):
+  next@16.3.8(@babel/core@7.29.7)(@playwright/test@1.64.1)(@types/node@24.10.4)(react-dom@19.2.4(react@19.3.1))(react@19.3.1):
     dependencies:
       '@next/env': 16.3.8
       '@swc/helpers': 0.5.23
       baseline-browser-mapping: 2.11.0
       caniuse-lite: 1.0.30001769
       postcss: 8.5.23
-      react: 19.2.4
-      react-dom: 19.2.4(react@19.2.4)
-      styled-jsx: 5.1.6(@babel/core@7.29.7)(react@19.2.4)
+      react: 19.3.1
+      react-dom: 19.2.4(react@19.3.1)
+      styled-jsx: 5.1.6(@babel/core@7.29.7)(react@19.3.1)
     optionalDependencies:
       '@next/swc-darwin-arm64': 16.3.8
       '@next/swc-darwin-x64': 16.3.8
@@ -1566,12 +1566,12 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.2
 
-  react-dom@19.2.4(react@19.2.4):
+  react-dom@19.2.4(react@19.3.1):
     dependencies:
-      react: 19.2.4
+      react: 19.3.1
       scheduler: 0.27.0
 
-  react@19.2.4: {}
+  react@19.3.1: {}
 
   reselect@5.2.0: {}
 
@@ -1619,10 +1619,10 @@ snapshots:
 
   source-map-js@1.2.2: {}
 
-  styled-jsx@5.1.6(@babel/core@7.29.7)(react@19.2.4):
+  styled-jsx@5.1.6(@babel/core@7.29.7)(react@19.3.1):
     dependencies:
       client-only: 0.0.1
-      react: 19.2.4
+      react: 19.3.1
     optionalDependencies:
       '@babel/core': 7.29.7
 
@@ -1647,9 +1647,9 @@ snapshots:
       picocolors: 1.1.1
     optional: true
 
-  use-sync-external-store@1.6.0(react@19.2.4):
+  use-sync-external-store@1.6.0(react@19.3.1):
     dependencies:
-      react: 19.2.4
+      react: 19.3.1
 
   yallist@3.1.1:
     optional: true
